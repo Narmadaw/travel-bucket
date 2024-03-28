@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &__logo{
+        width: 150px;
+    }
+    &__menu-list{
+        display: flex;
+    }
+}

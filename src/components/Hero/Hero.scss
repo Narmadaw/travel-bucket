@@ -1,0 +1,35 @@
+
+.banner{
+    background-image: url('./../../assets/beach.png');
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
+.running{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.image {
+    margin-top: 280px;
+    width: 50%;
+    animation: nudge 5s linear infinite alternate;
+}
+
+@keyframes nudge {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
